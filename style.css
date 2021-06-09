@@ -1,0 +1,10 @@
+.userInput {
+  background-color: bisque;
+}
+
+.translatedText {
+  padding: 2rem;
+  width: 10rem;
+  height: 1rem;
+  background-color: rgba(137, 43, 226, 0.5);
+}
