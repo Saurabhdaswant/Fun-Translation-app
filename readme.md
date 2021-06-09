@@ -24,6 +24,10 @@ Here is a related project 👇🏼
 
 [minion translator](https://mininon.netlify.app/)
 
+## Image credits
+
+- [Inkration Studio](https://dribbble.com/inkration)
+
 ## Feedback
 
 If you have any feedback, please reach out to me [Saurabh Daswant](https://twitter.com/DaswantSaurabh
