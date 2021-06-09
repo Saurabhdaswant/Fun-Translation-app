@@ -1,19 +1,36 @@
+//grabing all the stuff
 const userInput = document.querySelector(".userInput");
 const translate = document.querySelector(".translate");
 const translatedText = document.querySelector(".translatedText");
 
-function translateTheText() {
-  const input = userInput.value;
-  translatedText.innerHTML = input;
+//the moch api link
+const url = "	https://api.funtranslations.com/translate/valyrian.json";
+
+//makeup for the url thing
+function getTranslationURL(input) {
+  return url + "?" + "text=" + input;
 }
 
+//error handling bro
 function errorHandler(error) {
   console.log("gandla", error);
   alert("fuck off");
 }
 
-//callling server for processing
+function translateTheText() {
+  //reading the value of input
+  const userinput = userInput.value;
 
-// fetch(getTrans);
+  //callling server for processing
+  fetch(getTranslationURL(userinput))
+    .then((response) => response.json())
+    .then((json) => {
+      const translatedshit = json.contents.translated;
+      //output
+      translatedText.innerHTML = translatedshit;
+    })
+    .catch(errorHandler);
+}
 
+//adding the event listener to the the btn
 translate.addEventListener("click", translateTheText);
