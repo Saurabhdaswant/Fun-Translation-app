@@ -14,7 +14,9 @@ function getTranslationURL(input) {
 //error handling bro
 function errorHandler(error) {
   console.log("gandla", error);
-  alert("fuck off");
+  alert(
+    "There's a rate limit of 5 requests for it.. so it might be throwing error , you can try after an hour peace❤"
+  );
 }
 
 function translateTheText() {
