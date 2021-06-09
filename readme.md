@@ -1,6 +1,9 @@
 # Valyrian Speak. 
 Translate your sentences into Valyrian language with this web app.
 
+## valyrian language?
+The Valyrian language is a fictional language in  the TV series Game of Thrones.  
+
 ## What this Web app does 
 
 - takes the input from user
