@@ -1,1 +1,2 @@
-#currently working on this fun app which can translate whatever you put you here 
+# Valyrian Speak. 
+Translate your sentences into Valyrian language with this web app.
