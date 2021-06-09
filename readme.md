@@ -14,6 +14,10 @@ The Valyrian language is a fictional language in  the TV series Game of Thrones.
 
  - [funtranslation.com](https://funtranslations.com/)
 
+## Lessons Learned
+
+how to use mock API and fetch the data 
+
 ## Related
 
 Here is a related project 👇🏼
