@@ -10,10 +10,6 @@ The Valyrian language is a fictional language in  the TV series Game of Thrones.
 - process the input means input goes through the process of translating text
 - shows the translated text to the user  
 
-## API used in the project
-
- - [funtranslation.com](https://funtranslations.com/)
-
 ## Lessons Learned
 
 how to use mock API and fetch the data 
@@ -23,6 +19,10 @@ how to use mock API and fetch the data
 Here is a related project 👇🏼
 
 [minion translator](https://mininon.netlify.app/)
+
+## API used in the project
+
+ - [funtranslation.com](https://funtranslations.com/)
 
 ## Background Image credits
 
