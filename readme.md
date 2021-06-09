@@ -19,3 +19,8 @@ The Valyrian language is a fictional language in  the TV series Game of Thrones.
 Here is a related project 👇🏼
 
 [minion translator](https://mininon.netlify.app/)
+
+## Feedback
+
+If you have any feedback, please reach out to me [Saurabh Daswant](https://twitter.com/DaswantSaurabh
+)
