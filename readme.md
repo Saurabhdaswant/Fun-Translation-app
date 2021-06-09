@@ -24,7 +24,7 @@ Here is a related project 👇🏼
 
 [minion translator](https://mininon.netlify.app/)
 
-## Image credits
+## Background Image credits
 
 - [Inkration Studio](https://dribbble.com/inkration)
 
