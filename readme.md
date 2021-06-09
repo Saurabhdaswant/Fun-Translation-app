@@ -10,6 +10,10 @@ The Valyrian language is a fictional language in  the TV series Game of Thrones.
 - process the input means input goes through the process of translating text
 - shows the translated text to the user  
 
+## API used in the project
+
+ - [funtranslation.com](https://funtranslations.com/)
+
 ## Related
 
 Here is a related project 👇🏼
