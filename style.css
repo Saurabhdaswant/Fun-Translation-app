@@ -1,10 +1,71 @@
-.userInput {
-  background-color: bisque;
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;700&display=swap");
+
+/*! must before all */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mukta", sans-serif;
+  color: #001833;
 }
 
-.translatedText {
-  padding: 2rem;
-  width: 10rem;
-  height: 1rem;
-  background-color: rgba(137, 43, 226, 0.5);
+img {
+  max-width: 100%;
+}
+
+.container {
+  padding: 0 1rem;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+.heading {
+  font-size: 2.625rem;
+  text-transform: uppercase;
+  line-height: 2.7rem;
+  margin-bottom: 1rem;
+}
+
+.heading_sub--heading {
+  font-size: 1.5625rem;
+  margin-bottom: 1.5rem;
+}
+
+.heading_sub--heading_subtitle {
+  font-size: 18px;
+}
+
+.cta {
+  border-radius: 5px;
+  border: none;
+  background: #68e1fd;
+  text-transform: uppercase;
+}
+
+.cta:hover {
+  background: #65d8f1;
+  transition: 0.5s;
+}
+
+.textarea,
+.output {
+  max-width: 900px;
+  width: 100%;
+  height: 7rem;
+  margin: 0 auto;
+  display: flex;
+}
+
+.textarea,
+.cta,
+.output {
+  margin: 0.7rem;
+}
+
+.output {
+  border: 2px solid black;
+}
+
+.cta {
+  padding: 1rem 5rem;
 }
